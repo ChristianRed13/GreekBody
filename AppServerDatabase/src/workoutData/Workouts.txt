@@ -1,0 +1,18 @@
+	public Workout(String category, String name, int time) {
+		this.category = category;
+		this.name = name;
+		this.time = time;
+	}
+		@Override
+	public String toString() {
+		return name +"\nCategory: " + category + "\nTime: " + time +"\n";
+	}
+	//bi-directional many-to-one association to ExerciseWorkout
+	@OneToMany(mappedBy="id_workout")
+	private List<ExerciseWorkout> exerciseWorkouts;
+	
+	
+	CATEGORY
+	calisthenics
+	strenght
+    hypertrophy

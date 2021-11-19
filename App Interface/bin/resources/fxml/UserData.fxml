@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="879.0" style="-fx-background-color: CADETBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserDataController">
+
+   <children>
+      <Button fx:id="foodButton" layoutX="761.0" layoutY="500.0" mnemonicParsing="false" onAction="#onDietFinishButtonClick" text="READY!">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="height" layoutX="71.0" layoutY="263.0" prefHeight="35.0" prefWidth="192.0" />
+      <Label layoutX="71.0" layoutY="232.0" text="HEIGHT(CM)">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="231.0" layoutY="35.0" text="MY GREEK GOD BODY" textOverrun="CLIP" underline="true">
+         <font>
+            <Font name="Castellar" size="34.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5048543689320388" endY="0.3300970873786408" startX="0.5485436893203883" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="344.0" layoutY="80.0" text="YOUR FIRST STEP!">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="0.7184466019417476" startX="0.35436893203883496" startY="0.4611650485436893">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="age" layoutX="71.0" layoutY="346.0" prefHeight="35.0" prefWidth="192.0" />
+      <TextField fx:id="weight" layoutX="71.0" layoutY="440.0" prefHeight="35.0" prefWidth="192.0" />
+      <Label layoutX="71.0" layoutY="323.0" text="AGE">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="623.0" layoutY="232.0" text="GENDER">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="71.0" layoutY="417.0" text="WEIGHT(KG)">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ChoiceBox fx:id="gender" layoutX="617.0" layoutY="263.0" prefHeight="35.0" prefWidth="192.0" />
+      <ChoiceBox fx:id="activity" layoutX="617.0" layoutY="346.0" prefHeight="35.0" prefWidth="192.0" />
+      <Label layoutX="624.0" layoutY="323.0" text="ACTIVITY">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="625.0" layoutY="143.0" text="GOAL">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ChoiceBox fx:id="workout" layoutX="617.0" layoutY="440.0" prefHeight="35.0" prefWidth="192.0" />
+      <Label layoutX="625.0" layoutY="417.0" text="WORKOUT">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ChoiceBox fx:id="goals" layoutX="615.0" layoutY="171.0" prefHeight="35.0" prefWidth="192.0" />
+      <ImageView fitHeight="99.0" fitWidth="75.0" layoutX="673.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/PinClipart.com_spartan-helmet-clipart_5479889.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="75.0" layoutX="133.0" layoutY="26.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/PinClipart.com_spartan-helmet-clipart_5479889.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="383.0" layoutX="258.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Torch%20golas%20png.png" />
+         </image></ImageView>
+      <TextField fx:id="name" layoutX="71.0" layoutY="171.0" prefHeight="35.0" prefWidth="192.0" />
+      <Label layoutX="71.0" layoutY="143.0" text="NAME">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="357.0" layoutY="143.0" text="PASSWORD">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="1.0" proportional="false" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Text layoutX="351.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At least 8 characters (no space)&#10;Uppercase characters (A-Z)&#10;Lowercase characters (a-z)&#10;Digits (0-9)&#10;Special characters (@#$%^&amp;+=])" />
+      <PasswordField fx:id="password" layoutX="351.0" layoutY="169.0" prefHeight="35.0" prefWidth="192.0" />
+      <Label fx:id="errorLabel" layoutX="502.0" layoutY="509.0" textFill="#ee0101">
+         <font>
+            <Font name="Castellar" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorNull" layoutX="306.0" layoutY="118.0" textFill="#ee0101">
+         <font>
+            <Font name="Castellar" size="14.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

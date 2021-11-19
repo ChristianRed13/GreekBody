@@ -1,0 +1,48 @@
+1. name : Bacon and Eggs
+ingredients : -eggs 2\n-wheat bread 80g\n-black forest bacon 2 pieces\n-tomatoes 50g
+preparation : Cook the bacon in non-stick pen at medium heat.\nWhen it's done, place your bacon on a plate, then immediately crack 2 eggs in the pen and put a lid on.\nSeason your eggs when they are done and toast your wheat bread(optional).\nDon't forget to wash your tomatoes before you add them to your plate!
+calories : 405
+category : breakfast
+
+2. name : Chocolate Protein Oatmeal
+ingredients : -oats 100g\n-milk(1%) 200g\n-cocoa powder 15g\n-whey protein 1 scoop
+preparation : Heat the milk\nMeasure all the other ingredients in a bowl\nPour the milk on the dry ingredients and mix them all
+calories : 650
+category : breakfast
+
+3. name : Cinnamon Protein Pie Oatmeal
+ingredients : -oats 80g\n-milk(1%) 200g\n-cinnamon 5g\n-whey protein 1 scoop\n-apple half
+preparation : Heat 200g of milk \nMeasure all the other ingredients in a bowl\nCut your apple in very small cubes and add it to the dry ingredients\nPour the milk on the dry ingredients and mix them all
+calories: 579
+category : breakfast
+
+4. name : Chilli Con Carne
+ingredients : -kidney beans 150g\n-low fat beef(beef and pork) mince 120g\n-onion half\n-carrot 1\n-tomato sauce 50g\n-spices(paprika, pepper, ground cumin)
+preparation : Chop your vegetables and add them to a medium heat non-stick pan, let them cook 4-5 minutes.\nAdd your spices and salt to a bowl and mix them with your pork mince then put the mixture in the pen with the vegetables until the meat is fully cooked.\nDrain your red beans and add them to the pen together with your tomato sauce.\nDon't forget to add a little bit of water and let all cook until the sauce thickens.\nAdd salt to taste !
+calories :  401
+category : lunch
+
+5. name : Ratatouille
+ingredients : Ingredients for 6 servings!(calories are for 1 serving)\n-eggplants 2\n-roma tomatoes 2\n-yellow squashes 2\n-zucchinis 2\n-tablespoons olive oil 2\n-onion, diced 1\n-cloves garlic, minced 4\n-red bell peppers, diced 2\n-can of crushed tomatoes 795g\n-tablespoons chopped fresh basil, from 8-10 leaves 2\n-spices(parsley, fresh, thyme, pepper, oregano)
+preparation : Preheat the oven for 375˚F (190˚C).\nSlice the eggplant, tomatoes, squash, and zucchini into approximately ¹⁄₁₆-inch (1-mm) rounds, then set aside.\nMake the sauce: Heat the olive oil in a 12-inch (30-cm) oven-safe pan over medium-high heat. Sauté the onion, garlic, and bell peppers until soft, about 10 minutes. Season with salt and pepper, then add the crushed tomatoes. Stir until the ingredients are fully incorporated. Remove from heat, then add the basil. Stir once more, then smooth the surface of the sauce with a spatula.\nArrange the sliced veggies in alternating patterns, (for example, eggplant, tomato, squash, zucchini) on top of the sauce from the outer edge to the middle of the pan. Season with salt and pepper.\nMake the herb seasoning: In a small bowl, mix together the basil, garlic, parsley, thyme, salt, pepper, and olive oil. Spoon the herb seasoning over the vegetables.\nCover the pan with foil and bake for 40 minutes. Uncover, then bake for another 20 minutes, until the vegetables are softened.
+calories : 306
+category : lunch
+
+6. name : Fish Stew
+ingredients : Ingredients for 4 servings!(calories are for 1 serving)\n-slices stale bread , diced 4\n-tbsp olive oil 2\n-onion , finely chopped 1\n-garlic cloves , crushed 2\n-tsp dried chilli flakes 1\n-can chopped tomatoes 400\n-frozen white fish fillets, such as cod or pollock 4\n-can butter beans , drained 400g\n-small pack parsley , roughly chopped\n-1 lemon , cut into wedges
+preparation : Heat oven to 200C/180C fan/gas 6. Put the bread on a large baking sheet, drizzle over 1 tbsp oil and bake for 10 mins until golden. Set aside.\nMeanwhile, heat the rest of the oil in a large flameproof casserole dish over a medium heat.\nAdd the onion and cook until softened for about 10 mins, then add the garlic and chilli flakes and stir for 1 min. Tip in the tomatoes and fish fillets. Cover and simmer for 10 mins until the fish is nearly cooked, then uncover.\nTip in the butter beans, season well, then cook until everything is hot. Serve scattered with the croutons, parsley and lemon.
+calories : 325
+category : lunch
+
+7. name : Asian pulled chicken salad
+ingredients : Ingredients for 5 Serves(calories for 1 serving)\n-small roasted chicken about 1kg\n-red cabbage , cored and finely sliced 1/2\n-carrots , coarsley grated or finely shredded 3\n-spring onions , finely sliced on the diagonal 5\n-red chillies , halved and thinly sliced 2\n-small bunch coriander , roughly chopped, including stalks\n-heaped tbsp roasted salted peanuts , roughly crushed 2\n-½ tbsp hoisin sauce 3\n-½ tbsp toasted sesame oil 1
+preparation : Combine the dressing ingredients in a small bowl and set aside.\nRemove all the meat from the chicken, shred into large chunks and pop in a large bowl. Add the cabbage, carrots, spring onions, chillies and half the coriander.\nToss together with the dressing and pile onto a serving plate, then scatter over the remaining coriander and peanuts.
+calories : 352
+category : dinner
+
+8. name : Vanilla Cottage Cheese
+ingredients : -greek yoghurt(2%) 200g\n-cottage cheese(0.5%) 100g\n-honey 25g\n-raisins 20g\n-vanilla extract 5ml
+preparation : Mix all the ingredients into a bowl until smooth
+calories : 347
+category : snack
+

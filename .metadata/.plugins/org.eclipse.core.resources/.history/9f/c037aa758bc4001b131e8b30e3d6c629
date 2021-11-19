@@ -1,0 +1,73 @@
+package foodData;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+
+/**
+ * The persistent class for the ingredient_food database table.
+ * 
+ */
+@Entity
+@Table(name="ingredient_food")
+@NamedQuery(name="IngredientFood.findAll", query="SELECT i FROM IngredientFood i")
+public class IngredientFood implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private IngredientFoodPK id;
+
+	private String cantity;
+
+	//bi-directional many-to-one association to Food
+	@ManyToOne
+	@JoinColumn(name="id_food")
+	private Food food;
+
+	//bi-directional many-to-one association to Ingredient
+	@ManyToOne
+	@JoinColumn(name="id_ingredient")
+	private Ingredient ingredient;
+
+	public IngredientFood() {
+	}
+
+	public IngredientFood(Food food, Ingredient ingredient, String cantity) {
+		this.food = food;
+		this.cantity = cantity;
+		this.ingredient = ingredient;
+	}
+
+	public IngredientFoodPK getId() {
+		return this.id;
+	}
+
+	public void setId(IngredientFoodPK id) {
+		this.id = id;
+	}
+
+	public String getCantity() {
+		return this.cantity;
+	}
+
+	public void setCantity(String cantity) {
+		this.cantity = cantity;
+	}
+
+	public Food getFood() {
+		return this.food;
+	}
+
+	public void setFood(Food food) {
+		this.food = food;
+	}
+
+	public Ingredient getIngredient() {
+		return this.ingredient;
+	}
+
+	public void setIngredient(Ingredient ingredient) {
+		this.ingredient = ingredient;
+	}
+
+}

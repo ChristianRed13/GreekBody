@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CalculatorCalorii.java&apos; to &apos;App Interface/src/userData&apos;&#x0D;&#x0A;- Original project: &apos;AppDatabaseAplication&apos;&#x0D;&#x0A;- Destination element: &apos;App Interface/src/userData&apos;&#x0D;&#x0A;- Original element: &apos;userData.CalculatorCalorii.java&apos;" description="Copy compilation unit" destination="=App Interface/src&lt;userData" element1="/src&lt;userData{CalculatorCalorii.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1626626193933" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="698.0" style="-fx-background-color: CADETBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserWorkoutController">
+
+   <children>
+      <Button fx:id="foodButton" layoutX="609.0" layoutY="687.0" mnemonicParsing="false" onAction="#onFoodButtonClick" text="DIET!">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="141.0" layoutY="33.0" text="MY GREEK GOD BODY" textOverrun="CLIP" underline="true">
+         <font>
+            <Font name="Castellar" size="34.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5048543689320388" endY="0.3300970873786408" startX="0.5485436893203883" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="203.0" layoutY="78.0" text="MESSAGE FROM THE GODS!">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="0.7184466019417476" startX="0.35436893203883496" startY="0.4611650485436893">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="277.0" layoutY="131.0" text="WORKOUT" textFill="#070707">
+         <font>
+            <Font name="Castellar" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="99.0" fitWidth="75.0" layoutX="578.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/PinClipart.com_spartan-helmet-clipart_5479889.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="75.0" layoutX="47.0" layoutY="32.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/PinClipart.com_spartan-helmet-clipart_5479889.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <TextFlow fx:id="textWorkout" layoutX="154.0" layoutY="162.0" prefHeight="500.0" prefWidth="390.0" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

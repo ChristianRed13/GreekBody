@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="AppServer" transaction-type="RESOURCE_LOCAL">
+		<class>foodData.FoodIngredient</class>
+		<class>foodData.Food</class>
+		<class>foodData.Ingredient</class>
+		<class>workoutData.Exercise</class>
+		<class>workoutData.ExerciseWorkout</class>
+		<class>workoutData.Workout</class>
+		<class>userData.GreekUser</class>
+		<class>userData.UserFood</class>
+		<class>userData.UserWorkout</class>
+		<validation-mode>AUTO</validation-mode>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/greekgodconnection"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value="1313HaTz@"/>
+			<property name="eclipselink.target-database" value="MySQL"/>
+		</properties>
+	</persistence-unit>
+</persistence>

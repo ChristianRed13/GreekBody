@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="831.0" prefWidth="1523.0" style="-fx-background-color: CADETBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserFoodController">
+
+         <children>
+      <Label layoutX="472.0" layoutY="8.0" prefHeight="63.0" prefWidth="599.0" text="MY GREEK GOD BODY" textOverrun="CLIP" underline="true">
+         <font>
+            <Font name="Castellar" size="48.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5048543689320388" endY="0.3300970873786408" startX="0.5485436893203883" startY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="631.0" layoutY="63.0" text="THE GODS HAVE SPOKEN!">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7427184466019418" endY="0.7184466019417476" startX="0.35436893203883496" startY="0.4611650485436893">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="99.0" fitWidth="75.0" layoutX="1122.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/PinClipart.com_spartan-helmet-clipart_5479889.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="75.0" layoutX="322.0" layoutY="24.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/PinClipart.com_spartan-helmet-clipart_5479889.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <TextFlow fx:id="textBreakfast" layoutX="14.0" layoutY="164.0" prefHeight="628.0" prefWidth="384.0" />
+      <TextFlow fx:id="textLunch" layoutX="401.0" layoutY="162.0" prefHeight="638.0" prefWidth="370.0" />
+      <TextFlow fx:id="textDinner" layoutX="780.0" layoutY="162.0" prefHeight="644.0" prefWidth="370.0" />
+      <TextFlow fx:id="textSnack" layoutX="1153.0" layoutY="159.0" prefHeight="591.0" prefWidth="316.0" />
+      <Button fx:id="workoutButton" layoutX="1374.0" layoutY="779.0" mnemonicParsing="false" onAction="#onWorkoutButtonClick" prefHeight="47.0" prefWidth="146.0" text="Workout">
+         <font>
+            <Font name="Castellar" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonBreakfast" layoutX="109.0" layoutY="116.0" mnemonicParsing="false" onAction="#onBreakfastButtonClick" text="BREAKFAST">
+         <font>
+            <Font name="Castellar" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonLunch" layoutX="521.0" layoutY="117.0" mnemonicParsing="false" onAction="#onLunchButtonClick" text="Lunch">
+         <font>
+            <Font name="Castellar" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonDinner" layoutX="900.0" layoutY="117.0" mnemonicParsing="false" onAction="#onDinnerButtonClick" text="Dinner">
+         <font>
+            <Font name="Castellar" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSnack" layoutX="1255.0" layoutY="118.0" mnemonicParsing="false" onAction="#onSnackButtonClick" text="Snack">
+         <font>
+            <Font name="Castellar" size="24.0" />
+         </font>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

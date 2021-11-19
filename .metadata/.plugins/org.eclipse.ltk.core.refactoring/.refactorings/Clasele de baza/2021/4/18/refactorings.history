@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Food.java&apos; to &apos;GreekBodyJPA/src&apos;&#x0D;&#x0A;- Original project: &apos;Clasele de baza&apos;&#x0D;&#x0A;- Destination element: &apos;GreekBodyJPA/src&apos;&#x0D;&#x0A;- Original element: &apos;food_workout.Food.java&apos;" description="Copy compilation unit" destination="=GreekBodyJPA/src" element1="/src&lt;food_workout{Food.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1619689872430" units="1" version="1.0"/>
+</session>
